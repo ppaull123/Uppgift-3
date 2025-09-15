@@ -1,3 +1,8 @@
-document.querySelector("button").addEventListener("click", function(){
-    document.querySelector("h1").textContent = "Goodbye World";
-});
+const myH1 = document.querySelector("#myH1");
+const myBtn = document.querySelector("#myBtn");
+
+myBtn.addEventListener("click",
+    function() {
+        myH1.textContent = "Goodbye World!";
+    }
+);
